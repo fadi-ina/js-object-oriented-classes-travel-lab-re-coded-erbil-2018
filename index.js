@@ -15,7 +15,7 @@ class Driver {
   }
   yearsExperienceFromBeginningOf( year ) {
     let endDate = new Date( year, 1, 1 );
-    let totalYears = ( endDate - this.startDate ) / ( 365 * 24 * 60 * 60 * 9999 );
+    let totalYears = ( endDate - this.startDate ) / ( 365 * 24 * 60 * 60 * 10001 );
     return parseInt( totalYears );
   }
 }
